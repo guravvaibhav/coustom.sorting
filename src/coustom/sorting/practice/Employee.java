@@ -28,7 +28,9 @@ public class Employee {
 		if(this.getClass()!=obj.getClass())
 			return false;
 		Employee other=(Employee)obj;
+		System.out.println("change");
 		return this.id==other.id && this.name.equals(other.name) && this.dept.equals(other.dept);
+		
 	}
 	public String toString() {
 		return "Employee[name - "+name+",id - "+id+",dept - "+dept+"]";
