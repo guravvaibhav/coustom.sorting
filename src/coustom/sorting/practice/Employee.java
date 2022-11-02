@@ -30,6 +30,7 @@ public class Employee {
 		Employee other=(Employee)obj;
 		System.out.println("change");
 		System.out.println("change from git");
+		System.out.println("change from git fetch");
 		return this.id==other.id && this.name.equals(other.name) && this.dept.equals(other.dept);
 		
 	}
